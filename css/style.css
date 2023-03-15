@@ -333,7 +333,7 @@ p { color: var(--pragraph-color); }
     padding: 0 25px;
 }
 h2.logo {
-    font-size: var(--fontSize-5);
+    font-size: var(--fontSize-4);
 }
 h2.logo img {
     width: 32px;
