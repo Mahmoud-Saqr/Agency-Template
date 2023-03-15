@@ -335,6 +335,9 @@ p { color: var(--pragraph-color); }
 h2.logo {
     font-size: var(--fontSize-5);
 }
+h2.logo img {
+    width: 32px;
+}
 .navbar nav.nav ul.list li.links a {
     font-weight: var(--weight-semiBold);
     padding: 0 10px;
@@ -722,8 +725,14 @@ footer {
 footer .slide_1 {
     margin-bottom: 20px;
 }
-footer .slide_1 .logo h1 {
+footer .slide_1 .logo_content {
+}
+footer .slide_1 .logo_content h1.logo {
     color: var(--white-color);
+}
+footer .slide_1 .logo_content h1.logo img {
+    width: 35px;
+    height: 35px;
 }
 footer .slide_1 ul.icons li {
     display: flex;
